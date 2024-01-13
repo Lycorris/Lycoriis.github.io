@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Lycoris's BLOG
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Lycoris
 # language: en
 language: zh-CN 
 timezone: ''
@@ -103,4 +103,6 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: "https://github.com/Lycorris/blog.github.io"
+  branch: main
